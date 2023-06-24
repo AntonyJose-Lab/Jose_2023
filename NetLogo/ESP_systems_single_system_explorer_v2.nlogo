@@ -595,7 +595,7 @@ relative [Entity] or [Sensor]
 1.0
 true
 true
-"ask turtles [\n  create-temporary-plot-pen (word who) ; this creates a temporary plot pen for all turtles\n  set-plot-pen-color one-of base-colors ; this assigns each pen a random one of the base colors in NetLogo [5 15 25 35 45 55 65 75 85 95 105 115 125 135]\n  ]" " ask turtles [\n  set norm-val val / max-val\n  set-current-plot-pen (word who)\n  plot norm-val\n]\n"
+"ask turtles [\n  create-temporary-plot-pen (word who) ; this creates a temporary plot pen for all turtles\n  set-plot-pen-color one-of base-colors ; this assigns each pen a random one of the base colors in NetLogo [5 15 25 35 45 55 65 75 85 95 105 115 125 135]\n  ]" " ask turtles [\n  set norm-val val / max-val\n if who < (molecule-kinds - 1) [\n set-current-plot-pen (word who)\n ]\n plot norm-val\n]\n"
 PENS
 
 SLIDER
