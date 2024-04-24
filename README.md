@@ -10,7 +10,7 @@ For this work, several programs were written to perform simulations and analyze 
 
 Simple Entity-Sensor-Property (ESP) systems were simulated using custom programs in NetLogo (details are available within the ‘code’ and ‘info’ tabs of each program). Results from systematic explorations obtained by running NetLogo programs from the command line (i.e., ‘headless’) were analyzed using R. The developmental timing of cell division is *C. elegans* were curated manually from the literature and used to simulate ESP systems that incorporate this developmental timing and temporal delays in regulation.
 
-Each program used is listed below grouped by the software needed. Details for each step are commented on within the programs. Please modify paths as required before use.
+This work has been published in elife. Each program used is listed below grouped by the software needed. Details for each step are commented on within the programs. Please modify paths as required before use.
 
 
 ### Programs in NetLogo (v. 6.1.1):
